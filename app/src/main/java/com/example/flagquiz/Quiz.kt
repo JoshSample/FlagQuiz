@@ -7,8 +7,8 @@ import java.util.*
 
 
 class Quiz : Thread {
-    private var duration : Int = 0
-    private var noFlags : Int = 0
+    private var duration : Int = 0  // duration of the question "What flag is this?" in MainActivity, it is set to 5
+    private var noFlags : Int = 0   // number of flags shown before the slideshow ends, in MainActivity it is set to 10
     private var files = arrayOf("afghanistan.bmp", "albania.bmp", "algeria.bmp", "american_Samoa.bmp", "andorra.bmp", "angola.bmp", "anguilla.bmp",
         "antigua_and_barbuda.bmp", "argentina.bmp","armenia.bmp", "aruba.bmp","australia.bmp", "austria.bmp","azerbaijan.bmp",
         "bahamas.bmp", "bahrain.bmp", "bangladesh.bmp", "barbados.bmp", "belarus.bmp", "belgium.bmp", "belize.bmp", "benin.bmp",
